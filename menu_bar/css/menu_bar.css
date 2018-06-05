@@ -1,0 +1,201 @@
+/* Smart Coding System(SCS - smartcodingsystem.com), author Vahagn Gabrielyan. */
+html, body, ul, dl, dd, p {
+  margin: 0;
+  padding: 0; }
+
+.d_f {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.f_1 {
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-flex: 1;
+  -moz-box-flex: 1;
+  flex: 1; }
+
+.mobile, .mob2, nav > ul {
+  align-items: center;
+  justify-content: center; }
+
+h1 {
+  margin: 2vw 0;
+  text-align: center;
+  font-size: 2vw; }
+
+h2 {
+  font-size: 1.8vw;
+  margin: 1.5vw 0 0; }
+
+p, a {
+  font-size: 1.5vw; }
+
+.ex {
+  font-size: 1.2vw; }
+
+.mobile {
+  cursor: pointer;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  box-shadow: 0 0 0.3vw 0 #111;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 3.5vw;
+  z-index: 7;
+  top: 5%; }
+
+.mobile {
+  left: 1%; }
+
+.mob1 {
+  width: 1.7vw;
+  height: 1.7vw; }
+
+.mob2 {
+  border-top: 0.1vw solid #fff;
+  border-bottom: 0.1vw solid #fff;
+  width: 1.7vw;
+  height: 1.7vw;
+  display: flex;
+  box-sizing: border-box; }
+  .mob2 .mobLine {
+    width: 100%;
+    height: 0.1vw;
+    background: #fff; }
+
+.mob3 {
+  top: -0.095vw;
+  border-left: 0.05vw solid #fff;
+  border-right: 0.05vw solid #fff;
+  position: fixed;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  visibility: hidden; }
+  .mob3 li {
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 0.05vw solid rgba(255, 255, 255, 0.4); }
+    .mob3 li:last-child {
+      border-bottom: none; }
+  .mob3 a {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0.5vw 1vw;
+    display: block; }
+    .mob3 a:hover {
+      color: white; }
+
+.vis {
+  display: block;
+  position: relative; }
+
+.hid {
+  display: none; }
+
+.wrap {
+  margin: 5vw 3vw;
+  padding: 0 0 8vw 0;
+  border: 0.1vw solid #111;
+  position: relative;
+  text-align: center; }
+
+.ex {
+  margin: 1vw 1vw 5vw;
+  text-align: left;
+  opacity: 0.7; }
+
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 27.3px; }
+
+  h2 {
+    font-size: 24.6px;
+    margin: 27.3px 0 0; }
+
+  p, a {
+    font-size: 20.5px; }
+
+  .ex {
+    font-size: 16.4px; }
+
+  .mobile {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px; }
+
+  .mob1 {
+    width: 24px;
+    height: 24px; }
+
+  .mob2 {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    width: 24px;
+    height: 24px; }
+    .mob2 .mobLine {
+      height: 2px; }
+
+  .mob3 {
+    border-left-width: 1px;
+    border-right-width: 1px; }
+    .mob3 li {
+      border-bottom-width: 1px; }
+    .mob3 a {
+      padding: 5.8px 13.7px; }
+ }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 20px; }
+
+  h2 {
+    font-size: 18px;
+    margin: 27.3px 0 0; }
+
+  p, a {
+    font-size: 16px; }
+  .ex{
+    font-size: 12px; } }
+@media (max-width: 350px) {
+  h1, .mob3 a {
+    font-size: 6vw; }
+
+  h2 {
+    font-size: 5.5vw;
+    margin: 5vw 0 0; }
+
+  p, a{
+    font-size: 5vw; }
+  .ex {
+    font-size: 3.8vw; }
+
+  .mobile {
+    box-shadow: 0 0 0.8vw 0 #111;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 15vw; }
+
+  .mob1 {
+    width: 7vw;
+    height: 7vw; }
+
+  .mob2 {
+    border-top-width: 0.5vw;
+    border-bottom-width: 0.5vw;
+    width: 7vw;
+    height: 7vw; }
+    .mob2 .mobLine {
+      height: 0.5vw; }
+
+  .mob3 {
+    border-left-width: 0.25vw;
+    border-right-width: 0.25vw; }
+    .mob3 li {
+      border: 0.25vw solid rgba(255, 255, 255, 0.4); }
+    .mob3 a {
+      padding: 2vw 3vw; }
+ }
+
+/*# sourceMappingURL=web.css.map */
