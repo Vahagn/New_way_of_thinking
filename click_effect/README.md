@@ -2,4 +2,4 @@
 <br>
 One of the best JavaScript, jQuery click effect.<br>
 Advantage - less code.<br>
-<br><a href="https://api.smartcodingsystem.com/web/click_effect.php" target="_blank">Go to a live example.</a>
+<br><a href="http://api.smartcodingsystem.com/web/click_effect.php" target="_blank">Go to the example.</a>

@@ -2,4 +2,4 @@
 <br>
 One of the best CSS hover effect.<br>
 Advantage - less code.<br>
-<br><a href="https://api.smartcodingsystem.com/web/css_hover_effect.php" target="_blank">Go to a live example.</a>
+<br><a href="http://api.smartcodingsystem.com/web/css_hover_effect.php" target="_blank">Go to the example.</a>
