@@ -6,4 +6,4 @@ Advantages:<br>
   &ensp;Flexible functionality.<br>
   &ensp;Responsive design.<br>
 <br><a href="https://youtu.be/vhQyj7DwfoM" target="_blank">Go to Youtube.</a>
-<br><a href="http://api.smartcodingsystem.com/web/carousel_gallery.php" target="_blank">Go to the example.</a>
+<br><a href="http://api.ss7.tech/carousel_gallery.php" target="_blank">Go to the example.</a>
